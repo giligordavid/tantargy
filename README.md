@@ -1,2 +1,2 @@
 # tantargy
-Lehetőség nyílik tantárgyak felvételére.
+Tantárgyfelvétel.

@@ -1,0 +1,122 @@
+{
+  "data": {
+    "tantargy": [
+      {
+        "nev": "Analízis",
+        "oktato": "Németh Zsolt",
+        "datum": "",
+        "megjegyzes": "asdddddd",
+        "user": 1,
+        "createdAt": "2015-11-16T16:46:39.744Z",
+        "updatedAt": "2015-11-16T16:47:30.748Z",
+        "id": 1
+      }
+    ],
+    "user": [
+      {
+        "surname": "d",
+        "forename": "d",
+        "neptun": "d",
+        "password": "$2a$10$d6qJBws9v4jGZgwXakHWLeayKqb3H17GLPLLX20ZIeceLa1xvBPUW",
+        "role": "riporter",
+        "createdAt": "2015-11-16T16:46:20.674Z",
+        "updatedAt": "2015-11-16T16:46:20.674Z",
+        "id": 1
+      },
+      {
+        "firstname": "a",
+        "lastname": "a",
+        "user": "a",
+        "password": "$2a$10$e7A3YDCgfHatPZyFSl8nc.vHMibTReUSG21GjPeSwDFhtOfjgDP5q",
+        "role": "riporter",
+        "createdAt": "2015-11-16T17:20:07.237Z",
+        "updatedAt": "2015-11-16T17:20:07.237Z",
+        "id": 2
+      },
+      {
+        "firstname": "b",
+        "lastname": "b",
+        "user": "b",
+        "password": "$2a$10$iMPI44UPZURi0HkWg/Mj7ujXABzQ4Pc7FBzvYq5/UIZVSDBTxHYH.",
+        "role": "riporter",
+        "createdAt": "2015-11-16T17:20:44.127Z",
+        "updatedAt": "2015-11-16T17:20:44.127Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "tantargy": {
+      "nev": {
+        "type": "string"
+      },
+      "oktato": {
+        "type": "string"
+      },
+      "megjegyzes": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "user": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "firstname": {
+        "type": "string"
+      },
+      "lastname": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "tantargy": {
+      "id": 5
+    },
+    "user": {
+      "id": 3
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<h1>Listázás</h1>
+<div class="panel">
+  <form method="get" action="/list" >
+    <div class="form-group">
+  </form>
+</div>
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Tantárgy</th>
+      <th>Oktató</th>
+      <th>Megjegyzés</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each data as |targy|}}
+    <tr>
+      <td>{{targy.nev}}</td>
+      <td>{{targy.oktato}}</td>
+      <td>{{targy.megjegyzes}}</td>
+      <td>
+        <a href="/delete/{{targy.id}}">Törlés</a>
+        <a href="/edit/{{targy.id}}">Módosítás</a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table> 
