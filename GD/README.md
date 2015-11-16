@@ -1,7 +1,7 @@
 # Beadandó
-###Beadandó az Alkalmazások fejlesztése c. tárgyhoz
-###Kardos Attila
-######U6L05S
+###1. Beadandó Alkalmazások fejlesztése 
+###Giligor Dávid
+######HSYGGS
 ======
 ##Követelményanalízis
 ======
