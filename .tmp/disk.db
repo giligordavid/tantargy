@@ -10,6 +10,15 @@
         "createdAt": "2015-11-16T16:46:39.744Z",
         "updatedAt": "2015-11-16T16:47:30.748Z",
         "id": 1
+      },
+      {
+        "nev": "Diszkrét matematika",
+        "oktato": "Németh Zsolt",
+        "megjegyzes": "megvan",
+        "user": 4,
+        "createdAt": "2015-11-22T17:02:58.745Z",
+        "updatedAt": "2015-11-22T17:02:58.745Z",
+        "id": 13
       }
     ],
     "user": [
@@ -42,6 +51,16 @@
         "createdAt": "2015-11-16T17:20:44.127Z",
         "updatedAt": "2015-11-16T17:20:44.127Z",
         "id": 3
+      },
+      {
+        "firstname": "Giligor",
+        "lastname": "Dávid",
+        "user": "giligordavid",
+        "password": "$2a$10$UgLnbMV6QreV3d/I9xvzs.c5xKYkQKvqLL7q.ssNAhzPpLiUfow7q",
+        "role": "riporter",
+        "createdAt": "2015-11-22T17:02:47.681Z",
+        "updatedAt": "2015-11-22T17:02:47.681Z",
+        "id": 4
       }
     ]
   },
@@ -113,10 +132,10 @@
   },
   "counters": {
     "tantargy": {
-      "id": 12
+      "id": 14
     },
     "user": {
-      "id": 3
+      "id": 4
     }
   }
 }

@@ -66,6 +66,22 @@ MVC mintát követ: (Mappaszerkezet)
 ##Tesztelés
 ======
 
+Egységtesztek: user.test.js 
+
+Ezzel teszteljük a user addatmodelt.
+
+Automatizált tesztek Selenium IDE segitségével
+Automatizált teszt adatok:
+
+![test](dokumentacio/testcase.jpg "test")
+
+Tesztesetek :
+-bejelentkezés
+-menüpontok kipróbálása
+-új tantárgy felvétele
+-tantárgyak listázása
+-felvett tantárgy módosítása
+-kijelentekezés
 ======
 ##Felhasználói dokumentáció
 ======
