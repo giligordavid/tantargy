@@ -82,17 +82,14 @@ Tesztesetek :
 - tantárgyak listázása
 - felvett tantárgy módosítása
 - kijelentekezés
+
 ======
 ##Felhasználói dokumentáció
 ======
-A böngészőben megnyíló alkalmazásban információkat találunk magáról az
-alkalmazaásról, hogy mire is jó, mi a célja. Bejelentkezés, illetve regisztráció
-nélkül nem tudjuk igénybevenni az alkalmazás funcióit, csupán olvashatunk róla.
-A regisztráció egyszerű,pár lépésben elvégezhető folyamat, a nevünk,neptun kódunk,
-és jelszavunk megadása után be is jelentkezhetünk, és használhatjuk az alkalmazást.
-A Hozzáadás gombra kattintva, amely a menüben található,kiválaszthatunk adott
-listából különböző tantárgyakat. Miután a kiválasztás megtörtént,elérhetőek
-lesznek a gyakorlatvezetők névsora egy hasonló listában. A listában csak azok
-a gyakorlatvezetők jelennek meg, akik az adott tárgyat oktatják. Utána meg kell
-adnunk a felvétel dátumát. Megjegyzést is írhatunk a végén, mely bármit
-tartalmazhat, de nem kötelező írni.
+
+A böngészőben elinditjuk az alkalmazást. Bejelentkezés nélkül, csak az alkalmazás leírását érjük el. 
+A regisztráció egyszerü. Meg kell adni a Vezetéknevünket a Keresztnevünket, Felhasználónevet melyel később be tudunk majd jelentkezni, és a Jelszót.
+Miután bejelentkezünk lehetőségünk nyilik új tantárgyak felvételére a Hozzáadás menüpontban. Ki lehet választani a tantárgyat,
+lehet választani a tanárok közül valamint minden felvételhez tudunk megjegyzést hozzá füzni. 
+A felvett tárgyakat a Listázás menüpont alatt érjük el. Itt egy adott tantárgyat ki tudunk törölni vagy akár módosithatjuk is.
+Jobb oldalt lehetőségünk nyilik kijelentkezésre.
