@@ -31,7 +31,7 @@ A felvett tantárgyakat ki tudjuk listázni, és igény szerint módositani is t
 
 ======
 
-![ábra](dokumentacio/ábra.jpg "ábra")
+![ábra](dokumentacio/ablak.jpg "ábra")
 
 ======
 
@@ -39,7 +39,7 @@ A felvett tantárgyakat ki tudjuk listázni, és igény szerint módositani is t
 
 ======
 
-![ábra2](dokumentacio/ábra2.jpg "ábra2")
+![ábra2](dokumentacio/modell.jpg "ábra2")
 
 ======
 
