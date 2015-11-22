@@ -76,12 +76,12 @@ Automatizált teszt adatok:
 ![test](dokumentacio/testcase.jpg "test")
 
 Tesztesetek :
--bejelentkezés
--menüpontok kipróbálása
--új tantárgy felvétele
--tantárgyak listázása
--felvett tantárgy módosítása
--kijelentekezés
+- bejelentkezés
+- menüpontok kipróbálása
+- új tantárgy felvétele
+- tantárgyak listázása
+- felvett tantárgy módosítása
+- kijelentekezés
 ======
 ##Felhasználói dokumentáció
 ======
