@@ -5,9 +5,11 @@
 ======
 ##Követelményanalízis
 ======
-A feladat egy Neptunhoz hasonló alkalmazás fejlesztése, mely segítségével a hallgatók bejelentkezés után fel tudják venni maguknak a tárgyakat.
+A feladat egy olyan rendszer fejlesztése, melybe a tanulók tantárgyakat tudnak felvenni. 
 A tantárgyak listája adott, csak az adatbázisban szereplő tárgyakat tudja felvenni a hallgató.
 A tárgy kiválasztása után gyakorlatvezetőt is választani kell, szintén a megadott listából. 
+Adott tantárgyhoz, és tanárhoz megjegyzést is füzhetünk. 
+A felvett tantárgyakat ki tudjuk listázni, és igény szerint módositani is tudjuk. bármelyik tanárgyat, tanárt vagy megjegyzést.
 
 ======
 ##Tervezés
@@ -18,9 +20,9 @@ A tárgy kiválasztása után gyakorlatvezetőt is választani kell, szintén a 
   - Regisztráció
 
 - Főoldal (bejelentkezve)
-  - Lista megtekintése
-  - Új tárgy felvétele
-  - Információ az alkalmazásról
+  -Információ az alkalmazásról  
+  - Listázás
+  - Hozzáadás
   - Kijelentkezés
 
 ======
