@@ -19,6 +19,15 @@
         "createdAt": "2015-11-22T17:02:58.745Z",
         "updatedAt": "2015-11-22T17:02:58.745Z",
         "id": 13
+      },
+      {
+        "nev": "empty",
+        "oktato": "0",
+        "megjegyzes": "ffffffddfdf",
+        "user": 5,
+        "createdAt": "2015-11-26T08:49:36.637Z",
+        "updatedAt": "2015-11-26T08:49:46.976Z",
+        "id": 16
       }
     ],
     "user": [
@@ -61,6 +70,16 @@
         "createdAt": "2015-11-22T17:02:47.681Z",
         "updatedAt": "2015-11-22T17:02:47.681Z",
         "id": 4
+      },
+      {
+        "firstname": "asd",
+        "lastname": "asd",
+        "user": "asd",
+        "password": "$2a$10$i4D9a6A6d1TgCXfx/RzAE.e1SHYEjWRIgwoOCAWhDGWaNyESx90sO",
+        "role": "riporter",
+        "createdAt": "2015-11-26T08:48:51.624Z",
+        "updatedAt": "2015-11-26T08:48:51.624Z",
+        "id": 5
       }
     ]
   },
@@ -132,10 +151,10 @@
   },
   "counters": {
     "tantargy": {
-      "id": 14
+      "id": 16
     },
     "user": {
-      "id": 4
+      "id": 5
     }
   }
 }
